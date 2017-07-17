@@ -42,7 +42,7 @@ RUN apt-get -q update &&\
     apt-get -y install maven &&\
     apt-get -y install docker.io &&\
     apt-get -y install git &&\
-    apt-get -y python &&\
+    apt-get -y install python &&\
     apt-get -y install wget &&\
     wget https://bootstrap.pypa.io/get-pip.py &&\
     python get-pip.py
